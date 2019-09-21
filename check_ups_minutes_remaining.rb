@@ -3,6 +3,7 @@ require 'snmp'
 include SNMP
 
 
+
 DEFAULT_WARN = 20
 DEFAULT_CRITICAL = 15
 
@@ -11,7 +12,7 @@ WARN_MESSAGE = "Battery WARNING"
 
 
 
-def show_usage( message = '' )
+def show_usage( message = '')
   puts ""
   puts "#{message}" unless message == ""
   puts "" unless message == ""
